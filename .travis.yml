@@ -2,4 +2,4 @@ language: csharp
 mono: none
 dotnet: 2.1.402
 script:
-- dotnet test ./XUnitTestRSOI -c Release -f netcoreapp2.1
+- dotnet test ./XUnitTest -c Release -f netcoreapp2.1
