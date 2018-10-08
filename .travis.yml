@@ -3,3 +3,8 @@ mono: none
 dotnet: 2.1.402
 script:
 - dotnet test ./XUnitTest -c Release -f netcoreapp2.1
+deploy:
+  provider: heroku
+  api_key:
+    secure: f2khqYkh5ef7gs/4UG579MnxlROlyGCgu8BU+apkdE8t04X/k7WWLxVXzS982jpUYveWrKaX9YyEpC01/2yeAL2IpVz+elblOTB4tImRDLOcxzgwFb12sTDjvslTCz2C2wDf48dzKBDFIlgt97sKpc+Vn64s8jx3LJfxu2mt1V8bkIGVaaY1dVqezLxh6quknf+yYDErjsItyLBvA8WanL0rAa5i53I5b24pE6mSTSXs8/RPJ0LckP15bcNHaILZzb/JbZG25SNOJYSFFZ6zmthi4Z08I/7w1OuVrRwJ6zplN3SSJduOUvm+T/Dt/qQ8/pP+MxRC7zaNH7j2pY5o/uezMEjT0YL83LODgzh09ByNrD3bt4nde6cVyWtozIA/FqoYi+/iLoypYEqlGitOi6BV4AlRcBMeiX8xpwH1cqHaA286/ToHWvn+flLKNx+sYx0c2tWu5ZK5bg9HHJROqj+5ym2Va6O85hrLktS4AaLroPhZTXGBI7hDlBeaG8S+yorgaATaJfoTt7X0WcCu9P5v7ckuA/WPqAK3faaA9+n0fCwnMOq6hQxxGmOZMW2lVciSfTphwwBSWcGO/WcV1rXDfr6o+hwXCkgC36wBVS0C0t7wKFJtt7FIlWgsNuTJzNP5vBAzp4jQmdNusOKydL2rDtbnw0e2RMPENGthiOU=
+  app: rsoi-helloworld
