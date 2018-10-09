@@ -5,6 +5,5 @@ script:
 - dotnet test ./XUnitTest -c Release -f netcoreapp2.1
 deploy:
   provider: heroku
-  app: rsoi-helloworld
   api_key:
     secure: CeWC/Ykl+n3c+KDpYfagFZ3LVFBEmN6o7ARieGIyQqG2LPHtpFK6izWhkx5v8/iAWjbTwKyYZDbonkKuUFHidz0foiXAENiRUnZHEH/IYSt+dH6yiy5cgScsP4A0J2VvjHKPxdl7zR1dFUrTXD0eil7QoWK8cu5txqF/nLPfAWKUTAmSwu6JgTiR9nFTt7rorrasZb3JltGwoRdkdJtFcqvGdCgc929wCTMwzyTWWjgDvP9cKZSlO3NokWFJYDu/wWlZwIg0X7bl4m3WweIPU5SYMb7HlDUSO525j5QZBEWwCVkXLdGuRXl//E+ISedPTbzNHQwV6FxI5t9lpQoIwyPy63dg+FgAhn72bqGRW4GLh+Udy9u4/cbTviV0lFIlcLIDcOjTQ5vAEdMGCsvH9dr5LurPMb6BK2Y+XgwWV6fB00rKsDqKaVNzyk0+w/DACjYqRPdK2BFXiGqmIZxu92rhGO/mvOk/UTr8nd5Qc7ppfeYNs39YZnQVSyBAs2FUCTpOkZ+1A7NRwjunMD5jNAHUFBFFYsOBCAxeSqqX/9weuw2xMcXzeuvM6JxVgg+QfvIR9TJpfAt6C16d6TnVdUAQYK4bK3N6BfHPSf5Er/hsew3ZBn8K83u2PbLdw2BXMNJAvaMm//Y+9v05xf4EqIMUW+l6G5cy5xN9EOW5Mpc=
